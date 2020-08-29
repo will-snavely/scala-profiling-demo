@@ -1,0 +1,14 @@
+{
+  "mode": "trace",
+  "workingDir": "/src/agent/output",
+  "classes": [
+    {
+      "name": "TestProgram.*",
+      "methods": [
+        {
+          "name": "myFold.*"
+        }
+      ]
+    }
+  ]
+}
