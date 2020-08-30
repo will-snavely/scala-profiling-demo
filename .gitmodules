@@ -1,0 +1,6 @@
+[submodule "analysis/src/BytecodeDumpParser"]
+	path = analysis/src/BytecodeDumpParser
+	url = git@github.com:will-snavely/BytecodeDumpParser.git
+[submodule "java/src/ProfilingAgent"]
+	path = java/src/ProfilingAgent
+	url = git@github.com:will-snavely/ProfilingAgent.git

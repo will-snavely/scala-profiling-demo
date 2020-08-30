@@ -9,4 +9,4 @@ RUN cd /src \
     && /scala-2.13.1/bin/scalac TestProgram.scala \
     && cd /src/ProfilingAgent \
     && mvn clean \
-    && mvn package \
+    && mvn package
