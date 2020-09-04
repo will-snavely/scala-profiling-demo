@@ -4,3 +4,6 @@
 [submodule "java/src/ProfilingAgent"]
 	path = java/src/ProfilingAgent
 	url = git@github.com:will-snavely/ProfilingAgent.git
+[submodule "benchmark/src/BenchmarkTest"]
+	path = benchmark/src/BenchmarkTest
+	url = git@github.com:will-snavely/BenchmarkTest.git

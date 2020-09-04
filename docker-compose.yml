@@ -9,3 +9,8 @@ services:
     build: ./analysis
     volumes:
       - ".:/app"
+
+  benchmark:
+    build: ./benchmark
+    volumes:
+      - ".:/app"
