@@ -4,6 +4,9 @@ CMD="$CMD;JAVA_OPTS='-XX:StartFlightRecording=disk=true,dumponexit=true,filename
 CMD="$CMD /scala-2.13.1/bin/scala TestProgram 1000" 
 CMD="$CMD;mv *.jfr /app/output/trace/jfr"
 CMD="$CMD;chown -R $(id -u):$(id -g) /app/output"
-docker-compose run \
+
+echo "Generating Java-Flight-Recorder trace..."
+time docker-compose run \
 	--rm \
 	java /bin/bash -c "$CMD"
+echo "------------------------------"

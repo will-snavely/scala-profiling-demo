@@ -3,10 +3,18 @@
   "workingDir": "/src/agent/output",
   "classes": [
     {
-      "name": "TestProgram.*",
+      "name": "scala.collection.LinearSeqOps",
       "methods": [
         {
-          "name": "myFold.*"
+          "name": "foldLeft"
+        }
+      ]
+    },
+    {
+      "name": "scala.collection.IterableOnceOps",
+      "methods": [
+        {
+          "name": "foldLeft"
         }
       ]
     }
